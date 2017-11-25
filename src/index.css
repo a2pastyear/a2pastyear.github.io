@@ -60,7 +60,7 @@ body {
     outline: none;
     text-decoration: none;
     display: inline-block;
-    width: 31.5%;
+    width: 220px;
     margin-right: 0;
     text-align: left;
     text-indent: 2%;
@@ -73,8 +73,8 @@ body {
     outline: none;
     text-decoration: none;
     display: inline-block;
-    width: 15.5%;
-    margin-right: 0.625%;
+    width: 50px;
+    margin-right: 16px;
     text-align: center;
     line-height: 3;
     color: white;

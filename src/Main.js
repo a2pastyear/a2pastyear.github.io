@@ -4,8 +4,8 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
-import Home from "./Home";
-import Physics from "./Physics";
+import Home from "./Physics";
+
 import Chemistry from "./Chemistry";
 import Maths from "./Maths";
 
@@ -18,14 +18,14 @@ class Main extends Component {
        <div>
          <h1>CIE A2 Past Year</h1>
          <ul className="header">
-           <li id="home"><NavLink exact to="/">Home</NavLink></li>
-           <li><NavLink to="/physics">Physics</NavLink></li>
+           <li id="home"><NavLink exact to="/">Physics</NavLink></li>
+           
            <li><NavLink to="/chemistry">Chemistry</NavLink></li>
            <li><NavLink to="/maths">Maths</NavLink></li>
          </ul>
          <div className="content">
             <Route exact path="/" component={Home}/>
-            <Route path="/physics" component={Physics}/>
+            
             <Route path="/chemistry" component={Chemistry}/>
             <Route path="/maths" component={Maths}/>
          </div>
